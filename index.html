@@ -1,0 +1,23 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body style="padding-left: 25%;"">
+    <script src="index.js"></script>
+    <h1>Hough Transform Visualizer</h1>
+    <label for="x">X:</label>
+    <input type="text" id="x" />
+    <br />
+    <br />
+    <label for="y">Y:</label>
+    <input type="text" id="y" />
+    <br />
+    <br />
+    <button onclick="handleSubmit()">add point</button>
+    <div id="chart-container"></div>
+    <div id="hough-container"></div>
+  </body>
+</html>
